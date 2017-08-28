@@ -1,6 +1,6 @@
 # msp
 
-## mySQL plugin to access error log from INFORMATION_SCHEMA.ERROR_LOG view.
+## MySQL plugin to access error log from INFORMATION_SCHEMA.ERROR_LOG view.
 
 For MySQL 5.5 and MySQL 5.6 you must rename error-log-5.6.cc to error-log.cc . 
 
