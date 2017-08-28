@@ -1,12 +1,12 @@
 # msp
 
-# mySQL plugin to access error log from INFORMATION_SCHEMA.ERROR_LOG view.
+## mySQL plugin to access error log from INFORMATION_SCHEMA.ERROR_LOG view.
 
 For MySQL 5.5 and MySQL 5.6 you must rename error-log-5.6.cc to error-log.cc . 
 
 For MySQL 5.7 you must rename error-log-5.7.cc to error-log.cc . 
 
-##Build instructions
+### Build instructions
 
 This has been tested on Centos 7.3 with gcc 4.8.5. 
 The following instructions assumes you have a 5.7.19 MySQL instance running using /opt/mysql/5719 as MySQL binaries home directory.
