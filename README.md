@@ -12,10 +12,10 @@ This has been tested on Centos 7.3 with gcc 4.8.5.
 The following instructions assumes you have a 5.7.19 MySQL instance running using /opt/mysql/5719 as MySQL binaries home directory.
 
 1. clone Oracle MySQL repository and use the 5.7 branch
-2. in mysql-server/plugin directory create error_log directory
-3. copy from my repository error_log.cc and CMakeLists.txt into plugin/error_log 
-4. from mysql-server directory run `cmake . ` and `make`
-5. from plugin/error_log directory run `make`
+2. in **mysql-server/plugin** directory create **error_log** directory
+3. copy from my repository **error_log.cc** and **CMakeLists.txt** into **plugin/error_log** 
+4. from **mysql-server** directory run `cmake . ` and `make`
+5. from **plugin/error_log** directory run `make`
 6. copy generated plugin shared object to MySQL binaries directory: 
 `cp /home/mysql/mysql-server/plugin/error_log/error_log.so /opt/mysql/5719/lib/plugin/`
 7. connect to MySQL instance as root to run: 
